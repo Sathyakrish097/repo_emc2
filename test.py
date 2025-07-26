@@ -9,14 +9,14 @@ def main():
     df_test= pd.read_csv(r'D:\Power BI\Utube-tute\Hospitality-Project\fact_aggregated_bookings.csv')
     print(df_test.columns)
     print(df_test.shape)
-    print("File Loaded")
+    print("File loaded")
     
-    print("Script Completed")
+    print("Script has Completed")
     
     end_time= datetime.time()
     
     total= (end_time-start_time)/60
-    print("Total time ", total)
+    print("Total time taken: ", total)
 
 if __name__ == "__main__":
     main()
